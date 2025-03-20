@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .contenido{
     background-color: brown;
     display: flex;
@@ -40,47 +39,4 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 30px;
-=======
-.contenido{
-    background-color: brown;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-}
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 70px;
-
-}
-
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.entrada{
-    padding: 6px;
-    width: 95px;
-    margin:auto;
-    border-radius: 16px;
-    background-color: rgb(190, 99, 99);
-    color: black;
-}
-
-.boton{
-    background-color: rgb(116, 8, 8);
-    width: 90px;
-    margin: auto;
-    border-radius: 10px;
-}
-
-.boton:hover{
-    background-color: rgb(189, 18, 18);
-}
-
-.input{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
->>>>>>> bf897751da812b49c4924f2c46252295cf2735e6
 }
