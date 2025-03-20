@@ -106,8 +106,9 @@ function agregarInfo5() {
     let datos5 = info5.value;
 
     if (datos5 == "no") {
-        pregunta('h2', `¡Guau!: ${tecnologias}. Excelente que quieras aprender más tecnologías. Que tengas mucho éxito en tus estudios y en tu carrera. 👩‍🎓👨‍🎓 `)
-        document.querySelector('#ent').value = ""
+        pregunta('h2', `¡Guau!: ${tecnologias}. Excelente que quieras aprender más tecnologías.<br>Que tengas mucho éxito en tus estudios y en tu carrera. 👩‍🎓👨‍🎓 `)
+        document.querySelector('#ent').value = "";
+        document.querySelector('#resp').setAttribute('disabled','true');
     } else if(datos5 !== Number){
         pregunta('h2', '¿Alguna otra? escribe "no" para terminar')
         tecnologias.push(info5.value)
